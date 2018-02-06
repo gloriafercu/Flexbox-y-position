@@ -1,0 +1,42 @@
+.box {
+	border: 1px solid cyan;
+	width: 30em;
+	height: 30em;
+	margin: 5% auto 0;
+}
+.dot {
+	width: 10em;
+	height: 10em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.dot--1 {
+	background: black;
+	color: white;
+}
+.dot--2 {
+	background: #414141;
+	color: white;
+}
+.dot--3 {
+	background: #800;
+	color: white;
+}
+
+/* Tus estilos a partir de aquí */
+
+.box {
+	position: relative;
+}
+.dot {
+	position: absolute;
+	line-height: 10em;
+	text-align: center;
+}
+.dot--2 {
+	bottom: 0;
+}
+.dot--3 {
+	right: 0;
+}

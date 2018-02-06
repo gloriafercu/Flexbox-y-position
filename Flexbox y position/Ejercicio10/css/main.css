@@ -1,0 +1,70 @@
+.box {
+	border: 1px solid cyan;
+	width: 30em;
+	height: 30em;
+	margin: 5% auto 0;
+}
+.dot {
+	width: 10em;
+	height: 10em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.dot--1 {
+	background: black;
+	color: white;
+}
+.dot--2 {
+	background: #414141;
+	color: white;
+}
+.dot--3 {
+	background: #800;
+	color: white;
+}
+
+/* Tus estilos a partir de aquí */
+
+/*POSITION*/
+/*.box {
+	position: relative;
+}
+.dot {
+	position: absolute;
+	text-align: center;
+	line-height: 10em;
+}
+.dot--1 {
+	left: 50%;
+	transform: translateX(-50%);
+}
+.dot--2 {
+	bottom: 0;
+	height: 66.6%;
+}
+.dot--3 {
+	bottom: 0;
+	right: 0;
+	height: 66.6%;
+}*/
+/*FLEX*/
+.box {
+	display: flex;
+}
+.dot--1{
+	display: flex;
+	order:1;
+}
+.dot--2{
+	display: flex;
+	align-self: flex-end;
+	height:66.66%;
+	order:0;
+}
+.dot--3{
+	align-self: flex-end;
+	display: flex;
+	height:66.66%;
+	order:2;
+}
