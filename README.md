@@ -8,7 +8,7 @@
 # Flexbox-y-position
 
 * Ejercicio 1
-  https://gloriafercu.github.io/Flexbox-y-position//Flexbox%20y%20position/Ejercicio1/index.html
+  https://gloriafercu.github.io/Flexbox-y-position/Flexbox%20y%20position/Ejercicio1/index.html
 * Ejercicio 2
   https://gloriafercu.github.io/Flexbox-y-position//Flexbox%20y%20position/Ejercicio2/index.html
 * Ejercicio 3
