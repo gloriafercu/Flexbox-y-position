@@ -1,5 +1,5 @@
 
-Ejercicios sencillos para practicas Flexbox, posicionamiento y z-index.
+Ejercicios sencillos para practicar Flexbox, posicionamiento y z-index.
 
 # Flexbox-y-position
 
